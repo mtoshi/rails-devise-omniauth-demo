@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "Meiryo", "Lucida Grande","Arial", "MS P Gothic", sans-serif;
+  background-color: #FBF8EF;
+  color: #333;
+}
+
+.container {
+  padding: 24px;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 12px 0;
+}
+
+.flash .notice,
+.flash .alert {
+  padding: 4px 24px;
+  color: #FFF;
+}
+
+.flash .notice {
+  background-color: #080;
+}
+
+.flash .alert {
+  background-color: #F40;
+}
