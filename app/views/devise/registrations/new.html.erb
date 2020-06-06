@@ -5,7 +5,13 @@
 
   <div class="field">
     <%= f.label :email %><br />
+
+    <% if params[:email] %>
+    <%= f.email_field :email, value: params[:email], autofocus: true, autocomplete: "email" %>
+    <% else %>
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <% end %>
+
   </div>
 
   <div class="field">
